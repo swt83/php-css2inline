@@ -11,5 +11,5 @@ Normal install via Composer.
 Really simple:
 
 ```php
-$html = Inline::run($html);
+$html = Travis\Inline::run($html);
 ```
