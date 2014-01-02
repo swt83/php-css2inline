@@ -1,22 +1,27 @@
 {
-    "name": "vendor/package",
-    "description": "",
+    "name": "travis/inline",
+    "description": "A PHP library for preparing HTML emails by converting CSS to inline.",
+    "homepage": "https://github.com/swt83/php-inline",
+    "license": "MIT",
     "authors": [
         {
             "name": "Scott Travis",
-            "email": "scott@swt83.com"
+            "email": "scott.w.travis@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.0.*"
+        "tijsverkoyen/css-to-inline-styles": "*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
-            "Vendor\\Package\\": "src/"
+            "Travis\\": "src/"
         }
     },
     "minimum-stability": "dev"
