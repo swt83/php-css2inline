@@ -13,7 +13,7 @@ class Inline {
     public static function run($html)
     {
         // build object
-        $clean = new \TijsVerkoyen\CssToInlineStyles\CSSToInlineStyles();
+        $clean = new \TijsVerkoyen\CssToInlineStyles\CssToInlineStyles();
 
         // set html
         $clean->setHTML($html);
