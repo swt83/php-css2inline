@@ -8,15 +8,19 @@ class Inline {
      * Return HTML w/ inline CSS.
      *
      * @param   string  $html
+     * @param   string  $css
      * @return  string
      */
-    public static function run($html)
+    public static function run($html, $css = null)
     {
         // build object
         $clean = new \TijsVerkoyen\CssToInlineStyles\CssToInlineStyles();
 
         // set html
         $clean->setHTML($html);
+
+        // if provided, set css
+        if ($css) $clean->setCSS($css);
 
         // css included w/ html
         $clean->setUseInlineStylesBlock(true);

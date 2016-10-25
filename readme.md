@@ -13,5 +13,11 @@ Normal install via Composer.
 Really simple:
 
 ```php
-$html = Travis\Inline::run($html);
+use Travis\Inline;
+
+// just HTML (assumes CSS is set in STYLE section)
+$html = Inline::run($html);
+
+// both HTML and CSS
+$html = Inline::run($html, $css);
 ```
