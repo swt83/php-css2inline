@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "tijsverkoyen/css-to-inline-styles": "1.5.5"
+        "tijsverkoyen/css-to-inline-styles": "2.2.*"
     },
     "autoload": {
         "psr-0": {

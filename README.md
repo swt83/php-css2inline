@@ -2,7 +2,7 @@
 
 A PHP library for preparing HTML emails by converting CSS to inline.
 
-Uses Tijs Verkoyen's [CSS to Inline HTML Converter](https://github.com/tijsverkoyen/CssToInlineStyles).
+Uses Tijs Verkoyen's [CSS to Inline HTML Converter](https://github.com/tijsverkoyen/CssToInlineStyles).  There was a time when having a wrapper around this package made sense, but it really isn't needed anymore.  I leave this here just for the history books.
 
 ## Install
 
